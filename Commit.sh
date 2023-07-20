@@ -1,4 +1,4 @@
-git clone https://github.com/Himanshunashine/Demo
+git clone https://github.com/Himanshunashine/Demo.git
 cd Demo
 rm -rf .git
 
@@ -10,7 +10,6 @@ git clone $GIT_CMD_REPOSITORY
 cp -r Demo/* Demo/
 
 cd Demo
-
 
 
 git add .
