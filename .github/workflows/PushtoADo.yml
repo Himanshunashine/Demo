@@ -7,11 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run script file
-      env:
-        AZUREPAT: ${{secrets.AZUREPAT}}
-        AZUSERNAME: ${{secrets.AZUSERNAME}}
-        AZUSER_EMAIL: ${{secrets.AZUSER_EMAIL}}
-        AZORG: ${{secrets.AZORG}}
+      
       run: |
          chmod +x ./Commit.sh
          ./Commit.sh
